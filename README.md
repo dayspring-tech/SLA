@@ -111,16 +111,16 @@ first. Hit ExportResult button when finished. Result will be saved to a xlsx fil
 same directory with Mzml files. (The excel file will be open automatically. A command
 prompt may pop-up. You can close it after the excel file is open.)
 
-![tuneshot1](screeshot/Tune1.PNG)
-![tuneshot2](screeshot/Tune2.PNG)
-![tuneshot3](screeshot/Tune3.PNG)
+![tuneshot1](docs/images/Tune1.PNG)
+![tuneshot2](docs/images/Tune2.PNG)
+![tuneshot3](docs/images/Tune3.PNG)
 
 8. Copy/paste the volt column to the corresponding Analyst method COV column. The
 “POS” and “NEG” tabs correspond to the respective experiments in “Method 1”. The
 SST tab contains COV values for both positive and negative experiments in the SST
 method. Save the respective files after this modification.
 
-![tuneshot4](screeshot/Tune4.PNG)
+![tuneshot4](docs/images/Tune4.PNG)
 
 
 
@@ -166,7 +166,7 @@ MSConverterGUI.
 Mzml file
 6. Compare results with previous suitability tests.
 
-![SSTshot1](screeshot/SST1.PNG)
+![SSTshot1](docs/images/SST1.PNG)
 
 
 
@@ -200,7 +200,7 @@ We recomend using 01 through 99 as sample names(01,02... instead of 1,2...), and
 controls(i.e. “buffer”, “QC”, “QCSpike”, etc.). These names are then pasted to the first column in the map file and assigned
 sample information.(in the map file you can use 1,2... instead of 01,02...) Try to avoid using special characters here.
 
-![mapshot](screeshot/Map.PNG)
+![mapshot](docs/images/Map.PNG)
 
 4. Submit and run these two batches. After completing both Method batches, proceed with data analysis.
 
@@ -236,7 +236,7 @@ change it to rearrange them. To exclude samples, such as bad samples/subgroups o
    - Tissue: <img valign="middle" src="https://latex.codecogs.com/svg.latex?\frac{weight\;in\;mg}{amount\;to\;resuspend\;in\;ul&space;&plus;&space;weight\;in\;mg}&space;\;\cdot\;&space;amount\;of\;mixture\;taken\;from\;total\;in\;ul" title="\frac{weight\;in\;mg}{amount\;to\;resuspend\;in\;ul + weight\;in\;mg} \;\cdot\; amount\;of\;mixture\;taken\;from\;total\;in\;ul" />
    - Cell: number of cell in 10 million
 
-![mapshot](screeshot/Map.PNG)
+![mapshot](docs/images/Map.PNG)
 
 
 ### Read MZML
@@ -253,7 +253,7 @@ Yes for Mute Species.
 8. Put in your project name. You can also leave it blank.
 9. Hit Read MZML. Results will be saved under the same folder with the mzml files.
 
-![readmzmlshot1](screeshot/Readmzml2.PNG)
+![readmzmlshot1](docs/images/Readmzml2.PNG)
 
 ### Merge data with sample map
 1. Select **Merge** tab on SLA.
@@ -262,13 +262,13 @@ Yes for Mute Species.
 4. Select output excel files m1&amp;m2 from **Read mzml** session. (if your experiment has only 1
 method, then load it to m1 and leave m2 blank.)
 
-![m1m2shot](screeshot/m1m2output.PNG)
+![m1m2shot](docs/images/m1m2output.PNG)
 
 5. Put in your project name or leave it blank.
 6. Select if you want to export a csv file which can be uploaded to [ClustVis](https://biit.cs.ut.ee/clustvis/) for analysis.
 7. Hit Run Merge. Results will be saved in the directory you selected.
 
-![mergeshot](screeshot/merge.PNG)
+![mergeshot](docs/images/merge.PNG)
 
 ### Further Analysis
 1. Prior to performing the ClassTotal/TAG Analysis, you may want to move the primary
@@ -277,12 +277,12 @@ demarcated experiments in the batch).
 2. Select ClassTotal/TAG Analysis tab.
 3. Load the _Exp_ file from the Merge session
 
-![expshot](screeshot/expfile.PNG)
+![expshot](docs/images/expfile.PNG)
 
 4. Select if you want to add error bar and data points to the TAG analysis bar plots.
 5. Hit Run TAG. Results will be saved under the same folder with your *_Exp_* file.
 
-![TAG](screeshot/TAG.PNG)
+![TAG](docs/images/TAG.PNG)
 
 
 
